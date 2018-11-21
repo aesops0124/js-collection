@@ -5,13 +5,7 @@ function isEven(number) {
 }
 function choose_even(collection) {
 
-	let result = [];
-	for(let i=0; i<collection.length; i++) {
-		if(isEven(collection[i]))
-			result.push(collection[i]);
-	}
-	return result;
-	//return collection.filter(number => isEven(number))
+	return collection.filter(number => isEven(number))
 
 }
 
